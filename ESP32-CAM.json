@@ -1,16 +1,27 @@
 {
-  "chips": ["esp32"],
+  "chips": [
+    "esp32"
+  ],
   "name": "ESP32-CAM_MJPEG2SD MQTT+FTP (Basti Build)",
-  "version": "2026-11-13 v10.10.1 MQTT+HASIO+FTP",
+  "version": "2026-11-13 v10.10.1b MQTT-fix (outbox+retry+dup-guard)",
   "new_install_prompt_erase": false,
   "new_install": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "ESP32-CAM_MJPEG2SD.ino.bootloader.bin", "offset": 4096 },
-        { "path": "ESP32-CAM_MJPEG2SD.ino.partitions.bin", "offset": 32768 },
-        { "path": "ESP32-CAM_MJPEG2SD.ino.bin", "offset": 65536 }
+        {
+          "path": "ESP32-CAM_MJPEG2SD.ino.bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "ESP32-CAM_MJPEG2SD.ino.partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "ESP32-CAM_MJPEG2SD.ino.bin",
+          "offset": 65536
+        }
       ]
     }
   ]
