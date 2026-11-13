@@ -3,7 +3,7 @@
     "esp32"
   ],
   "name": "ESP32-CAM_MJPEG2SD MQTT+FTP (Basti Build)",
-  "version": "2026-11-13 v10.10.1b MQTT-fix (outbox+retry+dup-guard)",
+  "version": "2026-11-13 v10.10.1c retained+ha10-ids",
   "new_install_prompt_erase": false,
   "new_install": false,
   "builds": [
