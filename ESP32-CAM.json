@@ -1,7 +1,7 @@
 {
   "chips": ["esp32"],
   "name": "ESP32-CAM_MJPEG2SD MQTT+FTP (Basti Build)",
-  "version": "2026-11-12 v9.7 min_spiffs",
+  "version": "2026-11-13 v10.10.1 MQTT+HASIO+FTP",
   "new_install_prompt_erase": false,
   "new_install": false,
   "builds": [
